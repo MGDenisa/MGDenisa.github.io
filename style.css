@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Libre Baskerville', serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3rem;
+
+}
+
+.btn{
+  font-weight: 500;
+  border-radius: 300px;
+}
+
+.btn-info{
+  background-color: #042037;
+  border-color: #042037;
+}
+
+.btn-info:hover {
+  background-color: #496D89;
+  border-color: #496D89;
+  border-width: 6px;
+}
+
+btn-xl{
+  padding: 1 rem 2rem;
+}
+
+hr{
+  border-color: #042037;
+  border-width: 6px;
+  max-width: 150px;
+  border-radius: 300px;
+}
+
+.buffer{
+  height: 7rem;
+}
